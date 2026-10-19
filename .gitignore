@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Secrets and local configuration
+.env
+.env.*
+
+# Temporary and operating-system files
+.DS_Store
+*.tmp
+*.log
+
+# Local data by default
+data/
