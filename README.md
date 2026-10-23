@@ -6,11 +6,11 @@ Jupyter notebooks accompanying the machine learning workflows for drug-induced l
 
 | Path | Description |
 |---|---|
-| `notebooks/tier0_model_workflow.ipynb` | Tier 0 model workflow, including data preparation, model tuning/validation, test-set prediction, applicability-domain analysis, and UMAP visualisation. |
-| `notebooks/tier2_model_workflow.ipynb` | Tier 2 workflow using in-vitro assay/property data. |
-| `notebooks/altast_model_workflow.ipynb` | ALT/AST endpoint workflow. |
-| `notebooks/tbl_model_workflow.ipynb` | Total bilirubin (TBL) endpoint workflow. |
-| `notebooks/dilirank2_tier0_predictions.ipynb` | Tier 0 predictions/validation using DILIrank 2.0 data. |
+| `notebooks/tier0_model_workflow.ipynb` | Tier 0 model workflow. |
+| `notebooks/tier2_model_workflow.ipynb` | Tier 2 model workflow. |
+| `notebooks/altast_model_workflow.ipynb` | ALT/AST model workflow. |
+| `notebooks/tbl_model_workflow.ipynb` | TBL model workflow. |
+| `notebooks/dilirank2_tier0_predictions.ipynb` | Tier 0 temporal validation using DILIrank 2.0 data. |
 | `data/` | Folder containing the input workbook used by the notebooks. |
 | `results/` | Destination for generated result tables and predictions. |
 
@@ -30,7 +30,7 @@ Launch JupyterLab from the `notebooks/` directory so the notebooks’ existing `
 
 ## Running the notebooks
 
-1. Ensure you have access to the required input workbook in `data/` and that it is named `Supporting Information 2.xlsx`.
+1. Ensure you have access to the required input workbook in `data/` named `Supporting Information 2.xlsx` and create the `results` folder.
 2. Start JupyterLab from the repository root.
 3. Open the relevant notebook under `notebooks/`.
 4. Read the notebook from top to bottom and execute the cells in order. Some workflows perform hyperparameter optimisation and may take substantial time.
