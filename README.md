@@ -45,5 +45,3 @@ The notebooks resolve the input workbook using relative paths and no longer requ
 - The included UMAP visualisations and applicability-domain analyses should be interpreted as exploratory analyses rather than standalone proof of model generalisability.
 
 ## Citation
-
-If you use these workflows, please cite the associated manuscript and the relevant software packages, including RDKit and the machine-learning libraries used. Add the final manuscript citation here once the article has been accepted or published.
