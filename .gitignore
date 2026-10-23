@@ -21,5 +21,14 @@ conda-env/
 # Local data by default
 build/
 catboost_info/
-/data/
+
+# Ignore data files, but keep the folder
+/data/*
+!/data/.gitkeep
+
+# Ignore environment files
 /environment/
+
+# Ignore results files, but keep the folder
+/results/*
+!/results/.gitkeep

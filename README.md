@@ -30,7 +30,7 @@ Launch JupyterLab from the `notebooks/` directory so the notebooks’ existing `
 
 ## Running the notebooks
 
-1. Ensure you have access to the required input workbook in `data/` named `Supporting Information 2.xlsx` and create the `results` folder.
+1. Ensure you have access to the required input workbook in `data/` named `Supporting Information 2.xlsx`.
 2. Start JupyterLab from the repository root.
 3. Open the relevant notebook under `notebooks/`.
 4. Read the notebook from top to bottom and execute the cells in order. Some workflows perform hyperparameter optimisation and may take substantial time.
