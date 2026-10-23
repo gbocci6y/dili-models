@@ -16,10 +16,10 @@ Jupyter notebooks accompanying the machine learning workflows for drug-induced l
 
 ## Requirements and setup
 
-Python dependencies are documented in [`environment/README.md`](environment/README.md). The recommended starting point is:
+Python dependencies are documented in [`environment.yml`](environment.yml). The recommended starting point is:
 
 ```bash
-conda env create -f environment/environment.yml
+conda env create -f environment.yml
 conda activate dili-models
 python -m ipykernel install --user --name dili-models --display-name "Python (dili-models)"
 cd notebooks
