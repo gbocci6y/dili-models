@@ -1,0 +1,24 @@
+name: dili-models
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.10
+  - pip
+  - jupyterlab
+  - ipykernel
+  - numpy=1.26.4
+  - pandas=2.3.0
+  - scipy=1.11.3
+  - scikit-learn=1.5.2
+  - matplotlib=3.9.2
+  - seaborn=0.13.2
+  - rdkit=2024.3.5
+  - catboost=1.2.8
+  - umap-learn=0.5.7
+  - tqdm
+  - openpyxl=3.1.5
+  - patsy=0.5.6
+  - nest-asyncio=1.6.0
+  - pubchempy=1.0.5
+  - pip:
+      - pystan==3.10.0
